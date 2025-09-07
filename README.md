@@ -1,5 +1,4 @@
-# gisatb.github.io
-My personal website
+![](images/ChatGPT%20Image%20Sep%207,%202025,%2012_35_52%20PM.png)
 
 # 👋 Hi, I’m Atul Bhardwaj  
 
