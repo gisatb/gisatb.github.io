@@ -33,7 +33,7 @@ body {
 .sidebar nav a {
   display: block;
   color: #fff;
-  margin: 10px 0;
+  margin: 15px 0;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
@@ -86,7 +86,7 @@ body {
 }
 
 section {
-  padding: 40px 0;
+  padding: 7px 5px;
 }
 
 h1, h2, h3 {
