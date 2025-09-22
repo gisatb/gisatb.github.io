@@ -21,7 +21,7 @@
   <div class="social-icons">
     <a href="https://www.linkedin.com/in/atul7bhardwaj" target="_blank"><img src="assets/linkedin.png" alt="LinkedIn" width =35></a>
     <br>
-    <a href="https://github.com/atulbhardwaj" target="_blank"><img src="assets/github.png" alt="GitHub" width =35></a>
+    <a href="https://github.com/gisatb" target="_blank"><img src="assets/github.png" alt="GitHub" width =35></a>
     <br>
     <a href="mailto:atbhardwaj19.1993@gmail.com"><img src="assets/email.png" alt="Email" width =35></a>
     <br>
@@ -73,6 +73,7 @@
     <button class="filter-btn active" data-filter="all">All</button>
     <button class="filter-btn" data-filter="rs-gis">Remote Sensing & GIS</button>
     <button class="filter-btn" data-filter="webgis">WebGIS & Dashboards</button>
+     <button class="filter-btn" data-filter="python">Python Packages</button>
   </div>
 
   <!-- Project Grid -->
@@ -84,16 +85,31 @@
          data-img="assets/poppy-dashboard.png"
          data-desc="Multi-temporal NDVI & EVI analysis using Google Earth Engine & Python."
          data-tags="NDVI, Google Earth Engine, Remote Sensing"
-         data-live="https://example.com/poppy"
-         data-source="https://github.com/atulb/poppy-dashboard">
-      <img src="assets/poppy-dashboard.png" alt="Crop Monitoring">
+         data-live="https://code.earthengine.google.com/d3ebca440eb2a5059a5a7013e24f6a20"
+         data-source="https://github.com/gisatb/GEE_Projects/tree/main/Crop_Classification">
+      <img src="assets/wheat_k.png" alt="Crop Monitoring">
       <h3>Crop Monitoring</h3>
       <div class="tags">
         <span>🌾 NDVI</span><span>Google Earth Engine</span><span>Remote Sensing</span>
       </div>
     </div>
 
+    <!-- RS/GIS Projects -->
     <div class="project-card rs-gis"
+        data-title="Flood Inundation Mapping"
+        data-img="assets/flood.png"
+        data-desc="Flood mapping using Sentinel-1 SAR & Google Earth Engine."
+        data-tags="SAR, Flood, GEE"
+        data-live="https://atulmncfc.users.earthengine.app/view/flood-mapping"
+        data-source="https://github.com/gisatb/GEE_Projects/tree/main/Flood_Inundation">
+      <img src="assets/flood.png" alt="Flood Mapping">
+      <h3>Flood Inundation Mapping</h3>
+      <div class="tags">
+        <span>SAR</span><span>Google Earth Engine</span><span>Remote Sensing</span>
+      </div>
+    </div>
+
+    <!-- <div class="project-card rs-gis"
          data-title="Landuse Classification"
          data-img="assets/landuse-classification.png"
          data-desc="Supervised classification of Sentinel-2 imagery using Random Forest in GEE."
@@ -105,45 +121,61 @@
       <div class="tags">
         <span>🛰️ Sentinel-2</span><span>Random Forest</span><span>GEE</span>
       </div>
-    </div>
+    </div> -->
 
     <div class="project-card rs-gis"
          data-title="NDVI Analysis"
          data-img="assets/ndvi-analysis.png"
          data-desc="Multi-temporal NDVI feature stacking for crop health monitoring."
-         data-tags="NDVI, Time-Series, Python"
-         data-live="https://example.com/ndvi"
-         data-source="https://github.com/atulb/ndvi-analysis">
+         data-tags="NDVI, Time-Series, GEE"
+         data-live="https://atulmncfc.users.earthengine.app/view/ndvi-analysis"
+         data-source="https://github.com/gisatb/GEE_Projects/tree/main/NDVI_Analysis">
       <img src="assets/ndvi-analysis.png" alt="NDVI Analysis">
       <h3>NDVI Analysis</h3>
       <div class="tags">
-        <span>🌱 Vegetation Index</span><span>Time-Series</span><span>Python</span>
+        <span>🌱 Vegetation Index</span><span>Time-Series</span><span>GEE</span>
       </div>
     </div>
 
     <!-- WebGIS Projects -->
     <div class="project-card webgis"
          data-title="Earthquake Dashboard"
-         data-img="assets/earthquake-dashboard.png"
+         data-img="assets/earthquake-dashboard2.png"
          data-desc="Interactive dashboard with magnitude, depth & time-series analysis using Plotly Dash."
-         data-tags="Plotly Dash, Python, Interactive Charts"
-         data-live="https://example.com/earthquake"
-         data-source="https://github.com/atulb/earthquake-dashboard">
+         data-tags="Plotly, Python, Streamlit"
+         data-live="https://your-streamlit-url.streamlit.app"
+         data-source="https://github.com/gisatb/earthquake-gis-dashboard">
       <img src="assets/earthquake-dashboard.png" alt="Earthquake Dashboard">
       <h3>Earthquake Dashboard</h3>
       <div class="tags">
-        <span>🌍 Plotly Dash</span><span>Python</span><span>Interactive Charts</span>
+        <span>🌍 Plotly</span><span>Python</span><span>Streamlit</span>
       </div>
     </div>
 
+    <!-- RS/GIS Projects -->
+    <div class="project-card rs-gis"
+         data-title="Drought Monitoring"
+         data-img="assets/ee-chart.png"
+         data-desc="Multi-temporal VCI feature stacking for crop health monitoring."
+         data-tags="VCI, Time-Series, GEE"
+         data-live="#"
+         data-source="https://github.com/gisatb/GEE_Projects/tree/main/Drought_Monitoring">
+      <img src="assets/drought.png" alt="Drought Monitoring">
+      <h3>Drought Monitoring</h3>
+      <div class="tags">
+        <span>VCI Index</span><span>Time-Series</span><span>GEE</span>
+      </div>
+    </div>
+
+    <!-- WebGIS Projects --> 
     <div class="project-card webgis"
          data-title="Survey Dashboard"
-         data-img="assets/survey-dashboard.png"
+         data-img="assets/survey-dashboard2.png"
          data-desc="Dashboard for crop survey and ground truth validation with Python Dash."
          data-tags="Survey Data, Python Dash, Crop Mapping"
-         data-live="https://example.com/survey"
-         data-source="https://github.com/atulb/survey-dashboard">
-      <img src="assets/survey-dashboard.png" alt="Survey Dashboard">
+         data-live="https://crop-mapping-survey.streamlit.app/"
+         data-source="https://github.com/gisatb/crop-mapping-survey">
+      <img src="assets/survey-dashboard1.png" alt="Survey Dashboard">
       <h3>Survey Dashboard</h3>
       <div class="tags">
         <span>📊 Survey Data</span><span>Python Dash</span><span>Crop Mapping</span>
@@ -152,15 +184,44 @@
 
     <div class="project-card webgis"
          data-title="Environmental Dashboard"
-         data-img="assets/environmental-dashboard.png"
+         data-img="assets/portal.png"
          data-desc="WebGIS dashboard showing water, soil, and climate indicators using Leaflet & GeoServer."
          data-tags="Leaflet, GeoServer, WebGIS"
-         data-live="https://example.com/environment"
-         data-source="https://github.com/atulb/environmental-dashboard">
-      <img src="assets/environmental-dashboard.png" alt="Environmental Dashboard">
+         data-live="https://webmap-app.streamlit.app/"
+         data-source="https://github.com/gisatb/Streamlit-Webmap-app">
+      <img src="assets/portal2.png" alt="Environmental Dashboard">
       <h3>Environmental Dashboard</h3>
       <div class="tags">
-        <span>🌍 Leaflet</span><span>GeoServer</span><span>WebGIS</span>
+        <span>🌍 Leafmap</span><span>python</span><span>WebGIS</span>
+      </div>
+    </div>
+
+    <!-- Python Packages -->
+    <div class="project-card python"
+         data-title="mapdemo"
+         data-img="assets/mapdemo.png"
+         data-desc="A Python package for interactive mapping, published on PyPI and Conda-Forge, with docs hosted on GitHub Pages."
+         data-tags="Python, PyPI, Conda-Forge, GitHub Pages"
+         data-live="https://gisatb.github.io/mapdemo"
+         data-source="https://github.com/gisatb/mapdemo">
+      <img src="assets/mapdemo.png" alt="mapdemo">
+      <h3>Mapdemo Python Pacakge</h3>
+      <div class="tags">
+        <span>PyPI</span><span>python</span><span>folium</span><span>Ipyleaflet</span>
+      </div>
+    </div>
+
+    <div class="project-card webgis"
+         data-title="Portfolio Website"
+         data-img="assets/website.png"
+         data-desc="Interactive website application developed using HTML/CSS/JS, hosted on GitHub Pages."
+         data-tags="HTML, CSS, JS, GitHub Pages"
+         data-live="https://gisatb.github.io/"
+         data-source="https://gisatb.github.io">
+      <img src="assets/website.png" alt="Website">
+      <h3>Portfolio Website</h3>
+      <div class="tags">
+        <span>HTML</span><span>CSS</span><span>JS</span>
       </div>
     </div>
 
@@ -188,7 +249,7 @@
     <h2>Contact</h2>
     <p>Email: <a href="mailto:atbhardwaj19.1993@gmail.com">atbhardwaj19.1993@gmail.com</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/atul7bhardwaj" target="_blank">Profile</a></p>
-    <p>GitHub: <a href="https://github.com/atulbhardwaj" target="_blank">Profile</a></p>
+    <p>GitHub: <a href="https://github.com/gisatb" target="_blank">Profile</a></p>
   </section>
 
 </div>
