@@ -5,7 +5,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   display: flex;
-  background: #f8f9fa;
+  background: #d6d6d6;
   color: #1e1e2f;
 }
 
@@ -14,7 +14,7 @@ body {
 ================================= */
 .sidebar {
   width: 240px;
-  background: #1e1e2f;
+  background: #3b7687;
   color: #fff;
   height: 100vh;
   position: fixed;
